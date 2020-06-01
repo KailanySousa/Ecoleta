@@ -1,0 +1,12 @@
+***** COMANDOS PARA INICIAR O SERVER EM NODE *****
+npm init -y -> Comando para iniciar o projeto
+npm install express -> Comando para instalar o Express, que será responsável por gerenciar as rotas da API
+npm install ts-node -D -> Comando para instalar o TypeScript do Express nas dependeicnas de Desenvolvedor
+npx tsc --init -> Comando para iniciar o arquivo de configurações
+npx ts-node src/server.ts -> Comando para iniciar o server
+npm install ts-node-dev -D -> Comando para iniciar o server e ficar escutando para quando tiver uma nova alteração reiniciar o server automaticamente
+npx ts-node-dev src/server.ts -> Comando para iniciar o server verificando novas alterações
+
+***** COMANDO PARA INICIAR O PROJETO WEB EM REACT *****
+npx create-react-app web --template=typeScript -> Comando para ele criar nas pasta "web" um projeto React com o template do TypeScript
+npm start -> Comando para iniciar o server web React
