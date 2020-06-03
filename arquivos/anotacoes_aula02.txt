@@ -1,0 +1,14 @@
+[1] -------
+path.resolve(__dirname, 'database.sqlite') -> Retorna o caminho para o arquivo no padrão do sistema
+1º parametro: __dirname -> variável global que retorna o caminho pro diretório do arquivo que está sendo executado
+2º parametro: nome do arquivo
+-----------
+
+[2] ------
+migrations -> Histórico do banco de dados
+----------
+
+--- COMANDOS ---
+
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest -> Comando para executar as migrations e criar as tabelas do banco
+npx knex --knexfile knexfile.ts seed:run -> Comando para inserir as seeds
