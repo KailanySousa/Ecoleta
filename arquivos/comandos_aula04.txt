@@ -1,0 +1,17 @@
+npm install -g expo-cli -> Comando para instalar o expo nas configurações gerais da máquina
+expo init mobile -> Comando para iniciar o projeto 'mobile' com o expo
+npm start -> Comando para startar o expo
+
+----- BIBLIOTECAS -----
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto 
+npm install @react-navigation/native 
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/native 
+npm install @react-navigation/stack 
+expo react-native-maps 
+expo install react-native-maps
+expo install expo-constants
+expo install react-native-svg
+npm install axios 
+expo install expo-location 
+expo install expo-mail-composer 
